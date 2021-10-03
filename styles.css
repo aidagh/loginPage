@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  background-color: #ffffff;
+  font-size: 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  border: 5px solid #1d3f15;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.container .leftColumn {
+  display: flex;
+  flex: 1;
+}
+
+.container .leftColumn .logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.container .leftColumn .logo h3 {
+  color: rgb(7, 7, 146);
+}
+
+.container .leftColumn .loginInfo .logo {
+  margin-bottom: 20px;
+}
+.container .leftColumn .loginInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.container .leftColumn .loginInfo h1 {
+  color: rgb(7, 7, 146);
+}
+.container .leftColumn .loginInfo p {
+  color: rgb(100, 100, 173);
+  font-size: 12px;
+  font-weight: bold;
+  padding-bottom: 35px;
+}
+
+.container .leftColumn .loginInfo input {
+  padding: 15px 100px 15px 15px;
+  border: 2px solid #ccbfbf6c;
+  border-radius: 5px;
+  color: rgb(7, 7, 146);
+  caret-color: rgb(216, 216, 0);
+}
+
+.container .leftColumn .loginInfo input:focus {
+  outline: none;
+  border: 2px solid rgb(11, 173, 106);
+}
+
+.container .leftColumn .loginInfo input::placeholder {
+  color: #5353536c;
+  font-size: 12px;
+}
+.container .leftColumn .loginInfo .options {
+  display: flex;
+  flex-direction: row;
+}
+
+.container .leftColumn .loginInfo .options #label {
+  color: rgb(100, 100, 173);
+  font-size: 12px;
+  font-weight: bold;
+  flex: 1;
+  padding-left: 5px;
+}
+
+.container .leftColumn .loginInfo .options #forgetPass {
+  font-size: 12px;
+  font-weight: bold;
+  color: tomato;
+}
+
+.container .leftColumn .loginInfo .buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.container .leftColumn .loginInfo .buttons #login {
+  flex: 1;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: rgb(100, 100, 173);
+  border: 2px solid #558f4c;
+}
+.container .leftColumn .loginInfo .buttons #login:hover {
+  color: #ffffff;
+  border: 2px solid #195846;
+  background-color: #195846;
+}
+
+.container .leftColumn .loginInfo .buttons #createAcc {
+  flex: 1;
+  font-weight: bold;
+  border-radius: 8px;
+  background-color: #ffffff;
+  padding: 10px;
+  color: rgb(100, 100, 173);
+  border: 2px solid #558f4c;
+}
+.container .leftColumn .loginInfo .buttons #createAcc:hover {
+  color: #ffffff;
+  border: 2px solid #195846;
+  background-color: #195846;
+}
+
+.container .leftColumn .loginInfo .terms {
+  font-size: 9px;
+  color: #a8b0b3;
+  padding-top: 60px;
+}
+
+.container .image {
+  flex: 1;
+}
