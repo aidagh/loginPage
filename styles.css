@@ -17,19 +17,17 @@ body {
 }
 
 .container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
+  width: 50vw;
+  display: grid;
+  grid-template-columns: 50% 50%;
   border: 5px solid #1d3f15;
   border-radius: 20px;
-  padding: 30px;
 }
 
 .container .leftColumn {
   display: flex;
   flex: 1;
+  padding: 30px;
 }
 
 .container .leftColumn .logo {
@@ -139,4 +137,7 @@ body {
 
 .container .image {
   flex: 1;
+  background-image: url("ricardo-porto-zNTmNMk9KFM-unsplash.jpg");
+  background-position: center center;
+  background-size: cover;
 }
